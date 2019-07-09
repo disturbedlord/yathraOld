@@ -1,0 +1,317 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top_nav {
+   
+    margin: 0px 20px;
+    padding-bottom: 10px;
+}
+.brand_name {
+    position: relative;
+    margin: 10px 0px 0px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+/*    border-bottom: 2px solid;*/
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+}
+
+.top_menu {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    display: inline;
+    transform: translateX(-50%);
+    
+}
+
+.menu_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu_li {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 8px;
+    
+}
+
+.menu_link {
+    text-decoration: none;
+    color: black;
+}
+
+.social_links {
+    position: absolute;
+    left: 80%;
+    top: 5%;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    background: transparent;
+  color: black;
+}
+
+.image_viewer {
+    position: relative;
+    margin: 0px 5px;
+}
+
+.img1 {
+    position: relative;
+   width: 100%;
+}
+
+.p_t_img1 {
+    position: absolute;
+    top: 0%;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid;
+    padding: 5px;
+    right: 1%;
+}
+
+.loc {
+    position: relative;
+    padding: 30px;
+}
+
+.loc_p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    
+    display: inline;
+}
+
+.p_img_1 {
+    position: relative;
+    left: 5%;
+    top: 20px;   
+    width: 25%;
+   opacity: 0.7;
+    padding-bottom: 50px;
+    border: 2px solid black;
+}
+
+.p_img_1:hover {
+     opacity: 1;
+}
+
+.t_img_1{
+    position: relative;
+    bottom: 1%;
+        font-family: 'Open Sans', sans-serif;
+    color: black;
+   left: 9%;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    position: absolute;
+}
+
+
+.row {
+    
+    margin: 10px;
+    
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.p_img1 , .p_img2 , .p_img3 {
+    height: 500px;
+    
+}
+
+.f_name {
+     font-family: 'Open Sans', sans-serif;
+    font-size:30px; 
+    
+    display: inline;
+}
+
+.t_img1 {
+     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;    
+    position: relative;
+    top: -92%;
+    left: 55%;
+    border-bottom: 2px solid white;
+    display: inline;
+    color: white;
+}
+
+.t_img2 {
+     font-family: 'Open Sans', sans-serif;
+    font-size: 20px;    
+    position: relative;
+    top: -92%;
+    left: 55%;
+    border-bottom: 2px solid white;
+    display: inline;
+    color: white;
+}
+
+.place_more {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-style: none;
+   border-bottom: 2px solid teal; /* Green */
+}
+
+.footer {
+    padding: 10px;
+    background-color: #F0F0F0;
+    position: relative;
+    
+    
+}
+
+.f1 , .f2 {
+    position: relative;
+    
+         font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.place_b {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.p_b1 {
+    position: relative;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    margin: 20px 40px;
+    border: 2px solid black; /* Green */
+    transition-duration: 0.4s;
+}
+
+.f {
+    position: relative;
+     font-family: 'Open Sans', sans-serif;
+    font-size: 30px; 
+    
+   
+    margin: 20px 100px;
+    font-style: italic;
+    
+}
+
+.t1 {
+    border: 2px solid  #44a6c6;
+    margin: 20px;
+/*        background-color: #f8fcfd;*/
+
+}
+.feedback {
+    padding: 0px 30px;
+    margin: 20px 0px;
+}
+
+.f_p2 , .f_p3 {
+    display: none;
+}
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+   display: inline;
+   height: 10px;
+   padding: 0 20px;
+}
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #ffffff;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 1000px;
+    z-index: 1;
+    margin: 0px auto;
+    align-self: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    
+    line-height: 1;
+    margin: 0;
+}
+
+/* Blockquote right double quotes */
+.blockquote:after {
+    position: absolute;
+    content: "”";
+    color: black;
+    font-size: 10rem;
+    line-height: 0;
+    bottom: -43px;
+    right: 30px;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 60px;
+   }
+
+}
+
+.gallery {
+    
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
+  text-align: center;
+}
