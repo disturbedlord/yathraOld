@@ -256,7 +256,7 @@ body {
     padding: 30px 0;
     width: 100%;
     max-width: 1000px;
-    z-index: 1;
+    
     margin: 0px auto;
     align-self: center;
     border-top: solid 1px;
@@ -264,10 +264,11 @@ body {
 }
 
 /* Blockquote header */
-.blockquote h1 {
+.blockquote p {
     position: relative;
     color: black;
-    font-size: 20px;
+    font-style: italic;
+    font-size: 50px;
     
     line-height: 1;
     margin: 0;
@@ -373,3 +374,56 @@ body {
 }
 
 .mySlides {display:none;}
+
+.menu {
+    float: right;
+    position: relative;
+    top: 10px;
+    display: none;
+    
+}
+
+.menu_img {
+    width: 80px;
+}
+
+.menu_nav {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  
+    background-color: rgba(252 , 252 , 252 , 0.8);
+  
+}
+
+.menu_content {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.close {
+    font-size: 70px;    
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.menu_a {
+     font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.menu_l {
+    list-style: none;
+}

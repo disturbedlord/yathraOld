@@ -15,10 +15,14 @@
     <body>
     
         <div class = "top_nav">
-        
+            
             <p class="brand_name"> Sri Mahalakshmi Yathra</p>
-        
-            <div class="top_menu">
+            <div class="menu" id="menu">
+            
+                <img src="menu.png" onclick="showMenu()" class="menu_img">
+            
+            </div>
+            <div class="top_menu" id="top_menu">
             
                 <ul class = "menu_ul" >
                   <li class="menu_li"><a class = "menu_link" href="#home">Home</a></li>
@@ -30,7 +34,7 @@
                 
             </div>
             
-            <div class="social_links">
+            <div class="social_links" id="social">
             
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
@@ -38,6 +42,26 @@
                 <a href="#" class="fa fa-linkedin"></a>
             
             </div>
+        </div>
+        
+        <div class="menu_nav" id= "menu_nav">
+            
+            <div class="menu_content">
+                
+                <ul class = 'menu_l'>
+                    <span class="close" onclick="Onclose()">&times;</span>
+                    <li><a class="menu_a" href="#">Home</a></li>
+                
+                    <li><a class="menu_a" href="#">Programs</a></li>
+                
+                    <li><a class="menu_a" href="#">Book Now</a></li>
+                
+                    <li><a class="menu_a" href="#">About Us</a></li>
+                
+                <li><a class="menu_a" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
         </div>
     
     <div class = "image_viewer">
@@ -105,13 +129,8 @@
   <div class="desc">Rameshwaram</div>
 </div>
     
-  <button class="place_more">More</button>     
-        
-
-        
-        
-        
-    </div>    
+  <button class="place_more">More</button>      
+</div>    
    
         <div class="feedback">
             
@@ -120,30 +139,24 @@
 
             <div class="blockquote-wrapper">
   <div class="blockquote">
-    <h1>
+    <p>
       There services are really good and friendly staffs
-     </h1>
+     </p>
 
   </div>
                 <div class="blockquote">
-    <h1>
+    <p>
        They provided everything needed for the trip and were well prepared
-     </h1>
+     </p>
 
   </div>
                 
                 
                 </div>
-                <div class="blockquote">
-    <h1>
-       My parents loved it
-     </h1>
-
-  </div>
+               
                 
 </div>     
-        
-    </div>    
+    
         
         
     <div class="footer">

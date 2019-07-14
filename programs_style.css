@@ -1,0 +1,39 @@
+.p_h {
+    position: relative; 
+     font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 600px;
+    border-bottom: 2px solid black
+}
+
+.p_list {
+    position: relative;
+    margin: 0px 200px 0px 150px;
+}
+
+.ul_list {
+    list-style: none;
+}
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    background:	#F8F8F8;
+    border: none;
+    cursor: pointer;
+}
+
+.li {
+    padding: 5px;
+}
+.p1 {
+    padding: 0px 20px;
+    float: left;
+}
+
+.p2 {
+    padding: 0px 20px;
+    float: right;
+}

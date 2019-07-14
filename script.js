@@ -1,6 +1,28 @@
 var slideIndex = 0 , reviewIndex = 0;
 showSlides();
 showReview();
+checkWindowsSize();
+var width,height;
+
+function checkWindowsSize(){
+width = this.innerWidth;
+height = this.innerHeight;
+    
+    if(width < 1200){
+        document.getElementById('top_menu').style.display = 'none';
+        document.getElementById('social').style.display = 'none';
+        document.getElementById('menu').style.display = 'block';
+    }
+    else {
+        document.getElementById('top_menu').style.display = 'block';
+        document.getElementById('social').style.display = 'block';
+        document.getElementById('menu').style.display = 'none';
+    }
+    
+    
+    
+    setTimeout(checkWindowsSize);
+}
 
 function showSlides() {
   var i;
@@ -27,7 +49,17 @@ function showReview(){
         review[i].style.display = "none";
     }
     reviewIndex ++;
-    if(reviewIndex > review.length) {reviewIndex = 2}
+    if(reviewIndex > review.length) {reviewIndex = 1}
     review[reviewIndex - 1].style.display = "block";
     setTimeout(showReview , 3000);    
+}
+
+function showMenu(){
+    document.getElementById("menu_nav").style.display = 'block';
+    
+}
+
+
+function Onclose(){
+    document.getElementById("menu_nav").style.display = "none";
 }
