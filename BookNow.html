@@ -4,16 +4,18 @@
     
     <head>
     <title>Yathra</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css"> 
             <link rel="stylesheet" href="style_bookNow.css"> 
+        
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
    
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--    social Links    -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-        
+        <script src="booknow.js"></script>
     </head>
     <body>
     
@@ -44,30 +46,33 @@
         </div>
         <hr style="border:00.5px solid gray">
             
+        
+        
         <div class="book_h">
                 <p class="book_p">Booking Details</p>
         </div>
-        
+        <form action="https://formspree.io/hari16999@gmail.com" method="POST">
         <div class="b_details">
         
-            <input class = 'field' type="text" placeholder="Name *">
+            <input class = 'field name' type="text" placeholder="Name *">
 
-            <textarea  class = 'field'  rows="3" cols="50" placeholder="Name of the Pilgrims( with age and gender ) Eg: Name M/F Age *"></textarea>
+            <textarea  class = 'field pilgrimsCount'  rows="3" cols="50" placeholder="Name of the Pilgrims( with age and gender ) Eg: Name M/F Age *"></textarea>
             
-            <input class = 'field' type="text" placeholder="Address *">
+            <input class = 'field address' type="text" placeholder="Address *">
             
-            <input class = 'field' type="text" placeholder="Phone *">
+            <input class = 'field phone' type="text" placeholder="Phone *">
             
-            <input class = 'field' type="text" placeholder="Email *">
+            <input class = 'field email' type="text" placeholder="Email *">
             
-            <textarea  class = 'field'  rows="3" cols="50" placeholder="Message"></textarea>
+            <textarea  class = 'field message'  rows="3" cols="50" placeholder="Message"></textarea>
             
-            <input class = 'field' type="text" placeholder="Payment Details ( If Booked in Advance Only) *">
+            <input class = 'field payment' type="text" placeholder="Payment Details ( If Booked in Advance Only) *">
 
-            <input class = 'field submit_btn' type="submit"  >
+            <button class = 'field submit_btn' type="submit"  >Send</button>
 
 
         </div>
+        </form>
 
          <div class="footer">
         <p class="f1" align = "center">Sri Mahalakshmi Yathra Service</p>
