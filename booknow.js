@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.submit_btn').click(function(event){
-        event.preventDefault()
+       
         
         var name = $('.name').val()
         var pilgrimsCount = $('.pilgrimsCount').val()
