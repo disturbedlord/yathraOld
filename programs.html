@@ -6,23 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="style.css"> 
 
+            <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="programs_style.css"> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--    social Links    -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
         
     </head>
     <body>
     
-        <div class = "top_nav">
-        
-            <p id="menu">Menu</p>
-            
+         <div class = "top_nav">
             
             <p class="brand_name"> Sri Mahalakshmi Yathra</p>
-        
+            <div class="menu" id="menu">
+            
+                <img src="menu.png" onclick="showMenu()" class="menu_img">
+            
+            </div>
             <div class="top_menu" id="top_menu">
             
                 <ul class = "menu_ul" >
@@ -44,8 +48,29 @@
             
             </div>
         </div>
-                <hr style="border:00.5px solid gray">
+        
+        <div class="menu_nav" id= "menu_nav">
+            
+            <div class="menu_content">
+                
+                <ul class = 'menu_l'>
+                    <span class="close" onclick="Onclose()">&times;</span>
+                    <li><a class="menu_a" href="#">Home</a></li>
+                
+                    <li><a class="menu_a" href="#">Programs</a></li>
+                
+                    <li><a class="menu_a" href="#">Book Now</a></li>
+                
+                    <li><a class="menu_a" href="#">About Us</a></li>
+                
+                <li><a class="menu_a" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </div>
+                <hr style="border:0.5px solid gray">
 
+<!--
         <div class="programs_h">
         
             <p class="p_h">Programs</p>
@@ -65,6 +90,113 @@
             </div>
             
         </div>
+-->
+        
+<!--        <p class="p_h">Programs</p>-->
+        <div class = 'temple'>
+         <div class="column1">
+            <p >Programs</p>
+        </div>
+        
+        <div class="columns">
+            
+          <div class="column">
+              <img src="maha.jpg" width="100%" class = 'p_img'>
+<!--
+              <p class = 'loc_name'>Omkar Ujjain</p>
+              <p class = 'date'>27 - 6 - 2019</p>
+-->
+          </div>
+          <div class="column">
+                            <img src="amar.jpg" width="100%" class = 'p_img'>
+
+<!--
+            <p class = 'loc_name'>Amarnath</p>
+              <p class = 'date'>08 - 7 - 2019</p>
+-->
+          </div>
+          <div class="column">
+<!--
+            <p class = 'loc_name'>Maharashtra</p>
+              <p class = 'date'>28 - 7 - 2019</p>
+-->
+               <img src="kasi.png" width="100%" class = 'p_img'>
+          </div>
+          <div class="column">
+               <img src="temple1.jpg" width="100%" class = 'p_img'>
+<!--
+            <p class = 'loc_name'>Rameshwarem</p>
+              <p class = 'date'>19 - 8 - 2019</p>
+-->
+          </div>
+        </div>
+        
+        <div class="columns">
+            
+          <div class="column">
+                             <img src="mount.jpg" width="100%" class = 'p_img'>
+
+          </div>
+          <div class="column">
+                                        <img src="templ2.jpg" width="100%" class = 'p_img'>
+
+          </div>
+          <div class="column">
+                                         <img src="temple3.jpeg" width="100%" class = 'p_img'>
+
+          </div>
+          <div class="column">
+                                         <img src="temple4.jpg" width="100%" class = 'p_img'>
+
+          </div>
+        </div>
+        
+        
+        <div class="columns">
+            
+          <div class="column">
+                                           <img src="coorg.webp" width="100%" class = 'p_img'>
+
+          </div>
+          <div class="column">
+                                         <img src="tiru.jpg" width="100%" class = 'p_img'>
+
+          </div>
+          <div class="column">
+                                       <img src="puri.jpg" width="100%" class = 'p_img'>
+
+          </div>
+          <div class="column">
+                                       <img src="te.jpg" width="100%" class = 'p_img'>
+
+          </div>
+        </div>
+        </div>
+        
+        
+        <div class="travel">
+        
+            <p class='t_p'>Travel Estimator</p>
+            
+            <div class = 'btn-group'>
+            
+               
+                <button class="t_btn"><img src='aeroplane.png'></button>
+                 <button class="t_btn"><img src='train.png'></button>
+            </div>
+            
+            <div class = "t_content">
+                <input class = 'field' type="text" placeholder="Adults">
+                                <input class = 'field' type="text" placeholder="Senior Citizens">
+
+                                <input class = 'field' type="text" placeholder="Children">
+
+            </div>
+            
+            <p class="op">Estimated Expense is $1200</p>
+            
+        </div>
+        
         
         <div class="footer">
         <p class="f1" align = "center">Sri Mahalakshmi Yathra Service</p>
@@ -73,6 +205,6 @@
         <p class="f2" align = "center">
 Copyright © 2019 Srimahalakshmi Yathra - All Rights Reserved.</p>
     </div>    
-        
+        <script src="script_programs.js"></script>
     </body>
 </html>

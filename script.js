@@ -63,3 +63,9 @@ function showMenu(){
 function Onclose(){
     document.getElementById("menu_nav").style.display = "none";
 }
+
+$(document).ready(function () {
+          if (!$.browser.webkit) {
+              $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+          }
+      });
