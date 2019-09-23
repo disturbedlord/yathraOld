@@ -464,6 +464,8 @@ body {
 
 .columns{
     padding-top: 20px;
+    
+    
 }
 .column{
    padding: 5%;
@@ -521,4 +523,55 @@ body {
 #style-3::-webkit-scrollbar-thumb
 {
 	background-color: #000000;
+}
+
+/* MAP STUFF */
+
+.map {
+    position: relative;
+    background: white;
+    text-align: center;
+    margin: 0 5%;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.map-t {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 50px;
+}
+
+.leh {
+    position: absolute;
+    top: 250px;
+    left: 42%;
+    width: 30px;
+    height: 30px;
+}
+
+.chennai {
+    position: absolute;
+    top: 600px;
+    left: 43%;
+    width: 30px;
+    height: 30px;
+}
+
+.maptext {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 0.5em;
+}
+
+.card{
+	height: max-content;
 }
