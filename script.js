@@ -4,6 +4,7 @@ showReview();
 checkWindowsSize();
 var width,height;
 
+
 function checkWindowsSize(){
 width = this.innerWidth;
 height = this.innerHeight;
@@ -70,3 +71,22 @@ $(document).ready(function () {
           }
       });
 
+
+function loadDesc(id){
+  document.getElementById("map").style.display = "block";
+  id--;
+  var googleLink = "https://www.google.com/search?q=";
+  var placeName = [];
+placeName[0] = "Leh" ;
+placeName[1] = "Chennai" ;
+placeName[2] = "Bengaluru" ;
+placeName[3] = "Kasi" ;
+googleLink += placeName[id];
+var state = ["Jammu And Kashmir" , "Tamil Nadu" , "Karnataka" , "Odissa"]
+    document.getElementById("place").innerHTML = placeName[id];
+    document.getElementById("state").innerHTML = state[id];
+    document.getElementById("link").href = googleLink;
+
+
+   
+}

@@ -528,6 +528,8 @@ body {
 /* MAP STUFF */
 
 .map {
+    border: 2px solid;
+
     position: relative;
     background: white;
     text-align: center;
@@ -535,6 +537,10 @@ body {
     padding-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.maptext {
+    display: none;
 }
 
 .map-t {
@@ -545,7 +551,7 @@ body {
 .leh {
     position: absolute;
     top: 250px;
-    left: 42%;
+    left: 40%;
     width: 30px;
     height: 30px;
 }
@@ -553,17 +559,68 @@ body {
 .chennai {
     position: absolute;
     top: 600px;
-    left: 43%;
+    left: 44%;
     width: 30px;
     height: 30px;
 }
 
+.karnataka {
+    position: absolute;
+    top: 550px;
+    left: 38%;
+    width: 30px;
+    height: 30px;
+}
+
+.kasi {
+    position: absolute;
+    top: 350px;
+    left: 48%;
+    width: 30px;
+    height: 30px;
+}
+
+.kamakya {
+    position: absolute;
+    top: 345px;
+    left: 60%;
+    width: 30px;
+    height: 30px;
+}
+
+.narmada {
+    position: absolute;
+    top: 400px;
+    left: 38%;
+    width: 30px;
+    height: 30px;
+}
+
+.omkar {
+    position: absolute;
+    top: 410px;
+    left: 40%;
+    width: 30px;
+    height: 30px;
+}
+
+.andra {
+    position: absolute;
+    top: 530px;
+    left: 45%;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
 .maptext {
     position: absolute;
     top: 30%;
-    right: 5%;
+    left: 70%;
     padding: 10px;
-    border: 2px solid black;
+    margin-right: 10px;
 }
 
 .container{
@@ -573,5 +630,5 @@ body {
 }
 
 .card{
-	height: max-content;
+	
 }
