@@ -30,3 +30,11 @@ function showMenu(){
 function Onclose(){
     document.getElementById("menu_nav").style.display = "none";
 }
+
+VANTA.TOPOLOGY({
+    el: "#vantajs",
+   
+  
+  })
+  
+  VANTA.TOPOLOGY('#vantajs')

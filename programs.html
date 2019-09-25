@@ -15,13 +15,20 @@
 <!--    social Links    -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.topology.min.js"></script>
+<!-- B. Instilize vanta js by #id selector change WAVES to BIRDS -->
+<script src="p5.min.js"></script>
+
+<script src="vanta.js"></script>
+
     </head>
     <body>
-    
+            <section id="vantajs" style="height: 600px;">
+
          <div class = "top_nav">
             
-            <a href = 'index.html' style="color: black"><p class="brand_name"> Sri Mahalakshmi Yathra</p></a>
+            <a href = 'index.html' style="color: white"><p class="brand_name">SM Yathra</p></a>
             <div class="menu" id="menu">
             
                 <img src="menu.png" onclick="showMenu()" class="menu_img">
@@ -30,15 +37,15 @@
             <div class="top_menu" id="top_menu">
             
                 <ul class = "menu_ul" >
-                  <li class="menu_li"><a class = "menu_link" href="index.html">Home</a></li>
-                  <li class="menu_li"><a class = "menu_link" href="programs.html">Programs</a></li>
-                  <li class="menu_li"><a class = "menu_link" href="BookNow.html">Book Now</a></li>
-                  <li class="menu_li"><a class = "menu_link" href="aboutUs.html">About us</a></li>
+                  <li class="menu_li"><a class = "menu_link1" href="index.html" style="color: white;" >Home</a></li>
+                  <li class="menu_li"><a class = "menu_link1" href="programs.html" style="color: white;" >Programs</a></li>
+                  <li class="menu_li"><a class = "menu_link1" href="BookNow.html" style="color: white;" >Book Now</a></li>
+                  <li class="menu_li"><a class = "menu_link1" href="aboutUs.html" style="color: white;" >About us</a></li>
                 </ul>
                 
             </div>
             
-            <div class="social_links" id="social">
+            <div class="social_links1" id="social" >
             
                  <a href="https://www.facebook.com/pg/yathraservice/photos/?ref=page_internal" class="fa fa-facebook"></a>
                 <a href="https://www.justdial.com/Chennai/Shri-Mahalakshmi-Yathra-Service-Near-New-Secretariat-Chepauk/044P7032061_BZDET" class="fa fa-twitter"></a>
@@ -47,7 +54,6 @@
             
             </div>
         </div>
-        
         <div class="menu_nav" id= "menu_nav">
             
             <div class="menu_content">
@@ -67,14 +73,18 @@
             </div>
             
         </div>
-                <hr style="border:0.5px solid gray">
 
+        <div class="programs_text">
+            <p class="title is-1 p_text" style="color: white; font-size : 72px;">Programs</p>
+            <p class="subtitle is-4 p_text_sub" style="color: white;">Select from our list of Packages</p>
+        </div>
 
-        
+</section>
+
 <!--        <p class="p_h">Programs</p>-->
         <div class = 'temple'>
          <div class="column1">
-            <p >Programs</p>
+            <p >Packages</p>
         </div>
         
         <div class="columns">
@@ -82,7 +92,7 @@
             <div class="card zoom">
                 <div class="card-image">
                     <figure class="image is-500x500">
-                        <img src="chardham.jpg" alt="Placeholder image">
+                        <img src="karna.jpg" alt="Placeholder image">
                     </figure>
                 </div>
                 <div class="card-content">
@@ -91,12 +101,15 @@
                           
                         </div>
                         <div class="media-content">
-                            <p class="title is-4">Chardham</p>
+                            <p class="title is-4">Karnataka</p>
                             <p class="subtitle is-6">05.09.19 to 22.09.19</p>
-                            <p class="subtitle is-6">Rs:24000+Gst</p>
+                            
                         </div>
                     </div>
-    
+                    <div class=" title content">
+                        &#x20b9; 24000
+                         
+                     </div>
                 </div>
             </div>
         </div>
@@ -105,7 +118,7 @@
             <div class="card zoom">
                 <div class="card-image">
                     <figure class="image is-500x500" >
-                        <img src="karna.png" alt="Placeholder image">
+                        <img src="maharastra.jpg" alt="Placeholder image">
                     </figure>
                 </div>
                 <div class="card-content">
@@ -114,15 +127,15 @@
                             
                         </div>
                         <div class="media-content">
-                            <p class="title is-4">Karnataka</p>
-                            <p class="subtitle is-6">12.10.19 to 18.10.19</p>
+                            <p class="title is-4">Maharastra</p>
+                            <p class="title subtitle is-6">12.10.19 to 18.10.19</p>
                         </div>
                     </div>
     
-                    <div class="content">
-                       
-                        <time class="subtitle is-4">Rs:8500+Gst</time>
-                    </div>
+                    <div class=" title content">
+                        &#x20b9; 24000
+                         
+                     </div>
                 </div>
             </div>
         </div><div class="column"> 
@@ -143,9 +156,9 @@
                         </div>
                     </div>
     
-                    <div class="content">
+                    <div class="title content">
                        
-                        <time class="subtitle is-4">Rs:16000+Gst</time>
+                        <time class="title content"> &#x20b9; 16000</time>
                     </div>
                 </div>
             </div>
@@ -168,9 +181,9 @@
                         </div>
                     </div>
     
-                    <div class="content">
-                        Rs:17000+Gst
-                        <time </time>
+                    <div class="title content">
+                        &#x20b9; 17000
+                        
                     </div>
                 </div>
             </div>
@@ -183,21 +196,20 @@
          <div class="card zoom">
              <div class="card-image">
                  <figure class="image is-500x500">
-                     <img src="andhra.jpg">
+                     <img src="andra.jpeg">
                  </figure>
              </div>
              <div class="card-content">
                  <div class="media">
-                     <div class="media-left">
-                                            </div>
+                     
                      <div class="media-content">
-                         <p class="title is-4"></p>Andhra Pradesh</p>
+                         <p class="title is-4">Andhra Pradesh</p>
                          <p class="subtitle is-6">15.11.19 to 25.11.19</p>
                      </div>
                  </div>
  
-                 <div class="content">
-                     Rs:14000+Gst           
+                 <div class="title content">
+                    &#x20b9; 14000          
                      </div>
              </div>
          </div>
@@ -207,7 +219,7 @@
          <div class="card zoom">
              <div class="card-image">
                  <figure class="image is-500x500">
-                     <img src="maharastra.jpg" alt="Placeholder image">
+                     <img src="tiru.jpg" alt="Placeholder image">
                  </figure>
              </div>
              <div class="card-content">
@@ -216,13 +228,13 @@
                         
                      </div>
                      <div class="media-content">
-                         <p class="title is-4"> Maharastra</p>
+                         <p class="title is-4"> Tirupathi</p>
                          <p class="subtitle is-6">1.12.19 to 12.12.19</p>
                      </div>
                  </div>
  
-                 <div class="content">
-                     Rs:16000+Gst
+                 <div class=" title content">
+                    &#x20b9; 16000
                      
                  </div>
              </div>
@@ -231,7 +243,7 @@
          <div class="card zoom">
              <div class="card-image">
                  <figure class="image is-500x500">
-                     <img src="karna.jpg" alt="Placeholder image">
+                     <img src="chardham.jpg" alt="Placeholder image">
                  </figure>
              </div>
              <div class="card-content">
@@ -240,13 +252,13 @@
                          
                      </div>
                      <div class="media-content">
-                         <p class="title is-4"> Karnataka</p>
+                         <p class="title is-4"> Chardham</p>
                          <p class="subtitle is-6">26.12.19 to 31.12.19</p>
                      </div>
                  </div>
  
-                 <div class="content">
-                     Rs:8000+Gst
+                 <div class="title content">
+                    &#x20b9; 8000
                     
                  </div>
              </div>
@@ -271,8 +283,8 @@
                      </div>
                  </div>
  
-                 <div class="content">
-                    Rs:6000+Gst
+                 <div class="title content">
+                    &#x20b9; 6000
                      
                  </div>
              </div>
@@ -284,7 +296,7 @@
 
         
         
-        <div class="footer">
+        <div class="footer footer1">
         <p class="f1" align = "center">Sri Mahalakshmi Yathra Service</p>
         <p class="f2" align = "center">No.1, Yusuf Lane, Arunachalam street , Chepauk , Chennai, TN 600005 IN</p>
         <p class="f2" align = "center">Propx: S.Jayalakshmi : 94444 06957 ,044- 28516845</p>

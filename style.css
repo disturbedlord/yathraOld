@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url(img6.png);
+    /* background: url(img6.png); */
 }
 
 .top_nav {
@@ -43,14 +43,30 @@ body {
 }
 
 .menu_link {
+   
     text-decoration: none;
     color: black;
 }
+
+.menu_link1 {
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
 
 .social_links {
     position: absolute;
     left: 80%;
     top: 5%;
+}
+
+.social_links1 {
+    position: relative;
+    top: -25px;
+    left: 80%;
+    
 }
 
 .fa {
@@ -173,6 +189,18 @@ body {
     color: white;
 }
 
+.p_text {
+    position: relative;
+    top: 100px;
+    padding: 50px;
+}
+
+.p_text_sub {
+    position: relative;
+    top: 10px;
+    padding: 50px;
+}
+
 .place_more {
     cursor: pointer;
     position: relative;
@@ -194,6 +222,10 @@ body {
     position: relative;
     
     
+}
+
+.footer1 {
+    margin-top: 100px;
 }
 
 .f1 , .f2 {
