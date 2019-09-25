@@ -12,7 +12,7 @@ body {
 .brand_name {
     position: relative;
     margin: 10px 0px 0px 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 /*    border-bottom: 2px solid;*/
     padding: 10px 10px 0px 10px;
@@ -64,9 +64,19 @@ body {
 
 .social_links1 {
     position: relative;
-    top: -25px;
+    top: -30px;
     left: 80%;
     
+}
+
+.terms {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.line {
+    padding: 0 30%;
 }
 
 .fa {
